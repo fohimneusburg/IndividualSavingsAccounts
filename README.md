@@ -1,6 +1,6 @@
 # Savings Contract
 
-A simple smart contract written in solidity that allows a user to store funds and then withdraw at a chosen date.
+A simple smart contract written in solidity that allows a user to store funds and then withdraw them at a chosen date.
 
 ### Walkthrough
 
