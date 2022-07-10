@@ -17,7 +17,9 @@ contract IndividualSavingsAccount {
     }
 
     modifier Locked() {
-        require (time_locked >= block.timestamp);
+        if (time_locked >= block.timestamp) {
+            revert();
+        }
         _;
     }
 
