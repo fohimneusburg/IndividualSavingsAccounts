@@ -13,3 +13,7 @@ to be processed. The contract also allows for queries of the total balance and a
 ###### ISA 002
 
 IndividualSavingsAccount-002.sol is a slightly modified version of 001 and allows a user to withdraw a particular amount of funds (instead of the whole balance) and alter the locking period for longer periods of time.
+
+###### ISA 003
+
+IndividualSavingsaccunt-003.sol is basically the same as 001 & 002 however in this instance the owner is able to change the address which governs the contract. Hence giving the contract a new owner address.
