@@ -2,7 +2,7 @@ pragma solidity ^0.8.4;
 
 import"./SafeMaths.sol";
 
-contract IndividualSavingsContract {
+contract IndividualSavingsAccount {
 
     using SafeMath for uint256;
 
