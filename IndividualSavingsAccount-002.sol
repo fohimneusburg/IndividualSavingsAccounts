@@ -45,7 +45,7 @@ contract SavingsContract {
     }
 
     function LockForLonger(uint256 _timeLocked) public OnlyOwner() {
-        require (time_locked >= time_locked);
+        require (_timeLocked > time_locked);
         time_locked = _timeLocked;
     }
 
