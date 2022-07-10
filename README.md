@@ -6,9 +6,8 @@ A set of simple smart contracts written in solidity that allows a user to store 
 
 ###### ISA 001
 
-The smart contract in file IndividualSavingsAccount-001.sol has been developed with functionality that allows a user to lock up funds for a selected amount of time, once the time 
-has passed then the user can withdraw the funds. The user must wait untill the selected time has been passed to withdraw otherwise the contract will not allow for the withdraw 
-to be processed. The contract also allows for queries of the total balance and access is also restricted to just the owner/deployer of the contract. 
+IndividualSavingsAccount-001.sol has been developed with functionality that allows a user to lock up funds for a selected amount of time, once the time 
+has passed then the user can withdraw the funds. The user must wait untill the selected time has been passed to withdraw otherwise the contract will not allow for the withdraw to be processed. The contract also allows for queries of the total balance and access is also restricted to just the owner/deployer of the contract. 
 
 ###### ISA 002
 
