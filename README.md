@@ -15,4 +15,4 @@ IndividualSavingsAccount-002.sol is a slightly modified version of 001 and allow
 
 ###### ISA 003
 
-IndividualSavingsaccunt-003.sol is basically the same as 001 & 002 however in this instance the owner is able to change the address which governs the contract. Hence giving the contract a new owner address.
+IndividualSavingsaccunt-003.sol is basically the same as 002 however in this instance the owner is able to change the address which governs the contract. Hence giving the contract a new owner address.
