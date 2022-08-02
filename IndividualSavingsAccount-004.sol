@@ -2,7 +2,6 @@
 pragma solidity ^0.8.4;
 
 import"./SafeMaths.sol";
-import "./TransferHelper.sol";
 
 contract IndividualSavingsAccount {
 
@@ -37,9 +36,7 @@ contract IndividualSavingsAccount {
     }
 
     function DepositERC20Tokens(address _token, uint256 _amount) public {
-        (bool success, bytes memory data) =
-            _token.call(abi.encodeWithSelector(IERC20Minimal.transfer.selector, address(this), _amount));
-        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TF');
+        
     }
      
     function WithdrawETH(uint256 _amount) public OnlyOwner() Locked() {
@@ -48,9 +45,7 @@ contract IndividualSavingsAccount {
     }
 
     function WithdrawERC20Tokens(address _token, uint256 _amount) public {
-        (bool success, bytes memory data) =
-            _token.call(abi.encodeWithSelector(IERC20Minimal.transfer.selector, msg.sender, _amount));
-        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TF');
+        
     }
 
     function GetBalance() public view OnlyOwner() returns (uint256) {
